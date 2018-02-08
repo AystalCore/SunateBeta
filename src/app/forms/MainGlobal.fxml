@@ -6,7 +6,7 @@
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/rockets.png" id="data-button" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" format="dd.MM.yyyy" id="data-date" value="01.01.2000" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/load.png" id="data-button_get" visible="1"/>
-    <Data cursor="DEFAULT" enabled="1" id="data-data_panel" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-data_panel" visible=""/>
     <Data cursor="DEFAULT" enabled="1" id="data-button_help" visible="1"/>
     <FlatButton alignment="CENTER" clickColor="#f2f2f2" color="#f2f2f2" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button4" layoutX="164" layoutY="260" prefHeight="20" prefWidth="176" styleClass="x-flat-button " text="" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
@@ -23,7 +23,7 @@
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/shewron1.png" id="data-buttonAlt" visible="1"/>
-    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="TOP" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="get_status" layoutX="20" layoutY="92" prefHeight="80" prefWidth="596" styleClass="label " text="Данные не загржены" textAlignment="CENTER" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="TOP" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="get_status" layoutX="20" layoutY="92" prefHeight="80" prefWidth="596" styleClass="label " text="Данные не загржены" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
@@ -31,13 +31,13 @@
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/nullfile.png" id="data-get_status" visible="1"/>
     <Panel backgroundColor="#f2f2f2" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="data_panel" layoutX="16" layoutY="28" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="240" prefWidth="600" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="RIGHT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_day_daniil" layoutX="232" layoutY="0" prefHeight="20" prefWidth="64" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="RIGHT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_day_daniil" layoutX="232" layoutY="0" prefHeight="20" prefWidth="64" styleClass="label " text="0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="14"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/rocket_green.png" id="data-score_day_daniil" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_day_tit" layoutX="313" layoutY="0" prefHeight="20" prefWidth="68" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_day_tit" layoutX="313" layoutY="0" prefHeight="20" prefWidth="68" styleClass="label " text="0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="14"/>
           </font>
@@ -45,7 +45,7 @@
         <Data cursor="DEFAULT" enabled="1" graphic=".data/img/rocket_red.png" id="data-score_day_tit" visible="1"/>
         <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff00" focusTraversable="false" height="20" id="rectAlt" layoutX="304" layoutY="0" stroke="#999999" strokeType="INSIDE" strokeWidth="1" styleClass="" width="1"/>
         <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_day_all" layoutX="272" layoutY="20" prefHeight="20" prefWidth="64" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_day_all" layoutX="272" layoutY="20" prefHeight="20" prefWidth="64" styleClass="label " text="0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
@@ -53,133 +53,133 @@
         <Data cursor="DEFAULT" enabled="1" id="data-score_day_all" visible="1"/>
         <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff00" focusTraversable="false" height="188" id="rect3" layoutX="84" layoutY="44" stroke="#999999" strokeType="INSIDE" strokeWidth="1" styleClass="" width="1"/>
         <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part1" layoutX="4" layoutY="48" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part1" layoutX="4" layoutY="48" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part1" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part2" layoutX="4" layoutY="64" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part2" layoutX="4" layoutY="64" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part2" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part3" layoutX="4" layoutY="80" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part3" layoutX="4" layoutY="80" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part3" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part4" layoutX="4" layoutY="96" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part4" layoutX="4" layoutY="96" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part4" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part5" layoutX="4" layoutY="112" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part5" layoutX="4" layoutY="112" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part5" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part6" layoutX="4" layoutY="128" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part6" layoutX="4" layoutY="128" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part6" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part7" layoutX="4" layoutY="144" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part7" layoutX="4" layoutY="144" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part7" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part8" layoutX="4" layoutY="160" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part8" layoutX="4" layoutY="160" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part8" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part9" layoutX="4" layoutY="176" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part9" layoutX="4" layoutY="176" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part9" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part10" layoutX="4" layoutY="192" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part10" layoutX="4" layoutY="192" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part10" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part11" layoutX="4" layoutY="208" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part11" layoutX="4" layoutY="208" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part11" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part12" layoutX="104" layoutY="48" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part12" layoutX="104" layoutY="48" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part12" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part13" layoutX="104" layoutY="64" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part13" layoutX="104" layoutY="64" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part13" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part14" layoutX="104" layoutY="80" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part14" layoutX="104" layoutY="80" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part14" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part15" layoutX="104" layoutY="96" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part15" layoutX="104" layoutY="96" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part15" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part16" layoutX="104" layoutY="112" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part16" layoutX="104" layoutY="112" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part16" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part17" layoutX="104" layoutY="128" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part17" layoutX="104" layoutY="128" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part17" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part18" layoutX="104" layoutY="144" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part18" layoutX="104" layoutY="144" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part18" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part19" layoutX="104" layoutY="160" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part19" layoutX="104" layoutY="160" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part19" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part20" layoutX="104" layoutY="176" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part20" layoutX="104" layoutY="176" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part20" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part21" layoutX="104" layoutY="192" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part21" layoutX="104" layoutY="192" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_part21" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part22" layoutX="104" layoutY="208" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_part22" layoutX="104" layoutY="208" prefHeight="20" prefWidth="60" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
@@ -317,7 +317,7 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label22" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label23" layoutX="372" layoutY="64" prefHeight="20" prefWidth="180" styleClass="label " text="Повешено соплей" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label23" layoutX="372" layoutY="64" prefHeight="20" prefWidth="180" styleClass="label " text="Повешено соплей" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="13"/>
           </font>
@@ -340,12 +340,12 @@
         <Font name="System Regular" size="12"/>
       </titleFont>
     </Panel>
-    <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox_autoload" layoutX="172" layoutY="256" prefHeight="32" prefWidth="188" styleClass="check-box " text="Загружать автоматически" textAlignment="LEFT" underline="false" wrapText="false">
+    <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox_autoload" layoutX="172" layoutY="256" prefHeight="32" prefWidth="188" styleClass="check-box " text="Загружать автоматически" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </CheckBox>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_help" layoutX="28" layoutY="256" prefHeight="28" prefWidth="32" styleClass="button " text="?" textAlignment="CENTER" underline="false" wrapText="false">
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_help" layoutX="28" layoutY="256" prefHeight="28" prefWidth="32" styleClass="button " text="?" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="13"/>
       </font>
@@ -356,7 +356,7 @@
         <String fx:value="date-picker"/>
       </styleClass>
     </DatePicker>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_get" layoutX="500" layoutY="256" prefHeight="32" prefWidth="104" styleClass="button " text="Загрузить" textAlignment="CENTER" underline="false" wrapText="false">
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_get" layoutX="500" layoutY="256" prefHeight="32" prefWidth="104" styleClass="button " text="Загрузить" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
@@ -366,7 +366,7 @@
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/load.png" id="data-button3" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" id="data-combobox" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label27" layoutX="12" layoutY="480" prefHeight="32" prefWidth="112" styleClass="label " text="Версия:" textAlignment="LEFT" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label27" layoutX="12" layoutY="480" prefHeight="32" prefWidth="112" styleClass="label " text="Версия:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
@@ -378,7 +378,7 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-version" visible="1"/>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_checkUpdate" layoutX="188" layoutY="484" prefHeight="27" prefWidth="236" styleClass="button " text="Проверить наличие обновлений" textAlignment="CENTER" underline="false" wrapText="false">
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_checkUpdate" layoutX="188" layoutY="484" prefHeight="27" prefWidth="236" styleClass="button " text="Проверить наличие обновлений" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
@@ -392,31 +392,31 @@
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/core.png" id="data-label28" visible="1"/>
     <Panel backgroundColor="#f2f2f2" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="rank_panel" layoutX="16" layoutY="316" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="136" prefWidth="600" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_procent" layoutX="56" layoutY="4" prefHeight="17" prefWidth="232" styleClass="label " text="Винрейт (дневные партии WN24)" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_procent" layoutX="56" layoutY="4" prefHeight="17" prefWidth="232" styleClass="label " text="Винрейт (дневные партии WN24)" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-rank_procent" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label29" layoutX="4" layoutY="40" prefHeight="8" prefWidth="256" styleClass="label " text="Выиграно партий" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label29" layoutX="4" layoutY="40" prefHeight="8" prefWidth="256" styleClass="label " text="Выиграно партий" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label29" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_wins" layoutX="4" layoutY="56" prefHeight="8" prefWidth="256" styleClass="label " text="0 из 0" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_wins" layoutX="4" layoutY="56" prefHeight="8" prefWidth="256" styleClass="label " text="0 из 0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-rank_wins" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label31" layoutX="4" layoutY="80" prefHeight="8" prefWidth="256" styleClass="label " text="Повешено соплей" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label31" layoutX="4" layoutY="80" prefHeight="8" prefWidth="256" styleClass="label " text="Повешено соплей" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label31" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_sopel" layoutX="4" layoutY="96" prefHeight="8" prefWidth="256" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_sopel" layoutX="4" layoutY="96" prefHeight="8" prefWidth="256" styleClass="label " text="0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
@@ -424,7 +424,7 @@
         <Data cursor="DEFAULT" enabled="1" id="data-rank_sopel" visible="1"/>
         <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff00" focusTraversable="false" height="36" id="rect7" layoutX="296" layoutY="4" stroke="#999999" strokeType="INSIDE" strokeWidth="1" styleClass="" width="1"/>
         <Data cursor="DEFAULT" enabled="1" id="data-rect7" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label30" layoutX="304" layoutY="4" prefHeight="17" prefWidth="264" styleClass="label " text="Винрейт (общее количество WN7)" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label30" layoutX="304" layoutY="4" prefHeight="17" prefWidth="264" styleClass="label " text="Винрейт (общее количество WN7)" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
@@ -436,19 +436,19 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label33" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label34" layoutX="304" layoutY="24" prefHeight="17" prefWidth="100" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label34" layoutX="304" layoutY="24" prefHeight="17" prefWidth="100" styleClass="label " text="0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label34" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label35" layoutX="460" layoutY="40" prefHeight="17" prefWidth="136" styleClass="label " text="Убито мячей" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label35" layoutX="460" layoutY="40" prefHeight="17" prefWidth="136" styleClass="label " text="Убито мячей" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label35" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_kills" layoutX="484" layoutY="56" prefHeight="17" prefWidth="112" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_kills" layoutX="484" layoutY="56" prefHeight="17" prefWidth="112" styleClass="label " text="0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
@@ -461,7 +461,7 @@
         <Font name="System Regular" size="12"/>
       </titleFont>
     </Panel>
-    <Data cursor="DEFAULT" enabled="1" id="data-rank_panel" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rank_panel" visible=""/>
     <ComboBox editable="false" focusTraversable="true" id="combobox" layoutX="372" layoutY="444" prefHeight="25" prefWidth="120" promptText="Игрок" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
       <items xmlns:fx="http://javafx.com/fxml">
         <FXCollections fx:factory="observableArrayList">
@@ -470,12 +470,12 @@
         </FXCollections>
       </items>
     </ComboBox>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="500" layoutY="440" prefHeight="32" prefWidth="104" styleClass="button " text="Загрузить" textAlignment="CENTER" underline="false" wrapText="false">
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="500" layoutY="440" prefHeight="32" prefWidth="104" styleClass="button " text="Загрузить" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </Button>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="28" layoutY="440" prefHeight="28" prefWidth="32" styleClass="button " text="?" textAlignment="CENTER" underline="false" wrapText="false">
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="28" layoutY="440" prefHeight="28" prefWidth="32" styleClass="button " text="?" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="13"/>
       </font>
@@ -485,5 +485,19 @@
         <Font name="System Regular" size="12"/>
       </font>
     </FlatButton>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="dateNow" layoutX="360" layoutY="288" prefHeight="-8" prefWidth="100" styleClass="label " text="Текст" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="10"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-dateNow" visible=""/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#333333cc" focusTraversable="false" height="176" id="rect5" layoutX="4" layoutY="300" stroke="#cc3333" strokeType="INSIDE" strokeWidth="1" styleClass="" width="624"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="60" id="image" layoutX="264" layoutY="364" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="102">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/59a012c8d421f15e194960a5.png" visible="1"/>
   </children>
 </AnchorPane>

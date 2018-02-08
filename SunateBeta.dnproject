@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Leviafan4ik" authorOS="Windows 10" createdAt="1517589200199" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="SunateBeta" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1518091893634">
+<project author="Leviafan4ik" authorOS="Windows 10" createdAt="1517589200199" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="SunateBeta" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1518115238520">
   <tree>
     <expanded>
     <path src=""/>
+      <path src="/src"/>
+      <path src="/src/.data"/>
     </expanded>
   </tree>
   <openedFiles>
@@ -11,7 +13,7 @@
     <file src="src/app/modules/MainModule.php"/>
     <file src="src/app/forms/MainForm.php"/>
     <file selected="1" src="src/app/forms/MainGlobal.php"/>
-    <file src="src/.data/config.ini"/>
+    <file src="config.ini"/>
   </openedFiles>
   <files/>
   <behaviours>

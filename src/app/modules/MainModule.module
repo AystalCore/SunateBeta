@@ -1,5 +1,7 @@
 {
-  "props": [],
+  "props": {
+    "singleton": false
+  },
   "components": {
     "ini": {
       "type": "script\\storage\\IniStorage",

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <behaviours>
-  <target id="date">
+  <target id="date"/>
+  <target id="dateNow">
     <behaviour format="dd.MM.YYYY" type="behaviour\custom\WatchMakerBehaviour"/>
   </target>
 </behaviours>
