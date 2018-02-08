@@ -1,0 +1,5 @@
+[classes]
+app\forms\MainForm
+app\forms\MainGlobal
+app\modules\AppModule
+app\modules\MainModule

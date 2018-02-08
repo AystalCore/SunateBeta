@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="Leviafan4ik" authorOS="Windows 10" createdAt="1517589200199" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="SunateBeta" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1518086145873">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/app"/>
+      <path src="/src/app/forms"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file src="SunateBeta.dnproject"/>
+    <file src="src/app/modules/AppModule.php"/>
+    <file src="src/app/modules/MainModule.php"/>
+    <file src="src/app/forms/MainForm.php"/>
+    <file selected="1" src="src/app/forms/MainGlobal.php"/>
+    <file src="src/.data/config.ini"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+  </behaviours>
+</project>
