@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Leviafan4ik" authorOS="Windows 10" createdAt="1517589200199" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="SunateBeta" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1518086145873">
+<project author="Leviafan4ik" authorOS="Windows 10" createdAt="1517589200199" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="SunateBeta" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1518091893634">
   <tree>
     <expanded>
     <path src=""/>
-      <path src="/src"/>
-      <path src="/src/app"/>
-      <path src="/src/app/forms"/>
     </expanded>
   </tree>
   <openedFiles>

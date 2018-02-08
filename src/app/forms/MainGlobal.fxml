@@ -22,11 +22,6 @@
         <Font name="System Regular" size="12"/>
       </font>
     </FlatButton>
-    <FlatButton alignment="CENTER" clickColor="#f2f2f2" color="#f2f2f2" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="buttonAlt" layoutX="28" layoutY="304" prefHeight="17" prefWidth="92" styleClass="x-flat-button " text="Рейтинги" textAlignment="RIGHT" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </FlatButton>
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/shewron1.png" id="data-buttonAlt" visible="1"/>
     <LabelEx alignment="CENTER" autoSize="false" contentDisplay="TOP" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="get_status" layoutX="20" layoutY="92" prefHeight="80" prefWidth="596" styleClass="label " text="Данные не загржены" textAlignment="CENTER" underline="false" wrapText="false">
       <font>
@@ -340,50 +335,6 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-score_sopel_tit" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label24" layoutX="376" layoutY="112" prefHeight="20" prefWidth="184" styleClass="label " text="Влияние на процент WN24" textAlignment="LEFT" underline="false" wrapText="false">
-          <font>
-            <Font name="System Regular" size="13"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-label24" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_wn24_daniil" layoutX="360" layoutY="128" prefHeight="20" prefWidth="60" styleClass="label " text="0" textAlignment="LEFT" textFill="#808080" underline="false" wrapText="false">
-          <font>
-            <Font name="System Bold" size="12"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-score_wn24_daniil" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_wn24_tit" layoutX="508" layoutY="128" prefHeight="20" prefWidth="60" styleClass="label " text="0" textAlignment="LEFT" textFill="#808080" underline="false" wrapText="false">
-          <font>
-            <Font name="System Bold" size="12"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-score_wn24_tit" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label25" layoutX="376" layoutY="156" prefHeight="20" prefWidth="184" styleClass="label " text="Влияние на процент WN7" textAlignment="LEFT" underline="false" wrapText="false">
-          <font>
-            <Font name="System Regular" size="13"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-label25" visible="1"/>
-        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_wn7_daniil" layoutX="360" layoutY="172" prefHeight="20" prefWidth="60" styleClass="label " text="0" textAlignment="LEFT" textFill="#808080" underline="false" wrapText="false">
-          <font>
-            <Font name="System Bold" size="12"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-score_wn7_daniil" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_wn7_tit" layoutX="508" layoutY="172" prefHeight="20" prefWidth="60" styleClass="label " text="0" textAlignment="LEFT" textFill="#808080" underline="false" wrapText="false">
-          <font>
-            <Font name="System Bold" size="12"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-score_wn7_tit" visible="1"/>
-        <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1acc" focusTraversable="false" height="88" id="rect5" layoutX="376" layoutY="108" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="184"/>
-        <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label26" layoutX="388" layoutY="140" prefHeight="20" prefWidth="160" styleClass="label " text="В разработке" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-label26" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>
@@ -412,26 +363,8 @@
     </Button>
     <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff00" focusTraversable="false" height="28" id="rect6" layoutX="256" layoutY="284" stroke="#999999" strokeType="INSIDE" strokeWidth="1" styleClass="" width="1"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect6" visible="1"/>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="500" layoutY="440" prefHeight="32" prefWidth="104" styleClass="button " text="Загрузить" textAlignment="CENTER" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </Button>
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/load.png" id="data-button3" visible="1"/>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="28" layoutY="440" prefHeight="28" prefWidth="32" styleClass="button " text="?" textAlignment="CENTER" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="13"/>
-      </font>
-    </Button>
     <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
-    <ComboBox editable="false" focusTraversable="true" id="combobox" layoutX="372" layoutY="444" prefHeight="25" prefWidth="120" promptText="Игрок" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
-      <items xmlns:fx="http://javafx.com/fxml">
-        <FXCollections fx:factory="observableArrayList">
-          <String fx:value="Dr3amy"/>
-          <String fx:value="Leviafan4ik"/>
-        </FXCollections>
-      </items>
-    </ComboBox>
     <Data cursor="DEFAULT" enabled="1" id="data-combobox" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label27" layoutX="12" layoutY="480" prefHeight="32" prefWidth="112" styleClass="label " text="Версия:" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
@@ -457,5 +390,100 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/core.png" id="data-label28" visible="1"/>
+    <Panel backgroundColor="#f2f2f2" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="rank_panel" layoutX="16" layoutY="316" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="136" prefWidth="600" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_procent" layoutX="56" layoutY="4" prefHeight="17" prefWidth="232" styleClass="label " text="Винрейт (дневные партии WN24)" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-rank_procent" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label29" layoutX="4" layoutY="40" prefHeight="8" prefWidth="256" styleClass="label " text="Выиграно партий" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label29" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_wins" layoutX="4" layoutY="56" prefHeight="8" prefWidth="256" styleClass="label " text="0 из 0" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-rank_wins" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label31" layoutX="4" layoutY="80" prefHeight="8" prefWidth="256" styleClass="label " text="Повешено соплей" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label31" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_sopel" layoutX="4" layoutY="96" prefHeight="8" prefWidth="256" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-rank_sopel" visible="1"/>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff00" focusTraversable="false" height="36" id="rect7" layoutX="296" layoutY="4" stroke="#999999" strokeType="INSIDE" strokeWidth="1" styleClass="" width="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect7" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label30" layoutX="304" layoutY="4" prefHeight="17" prefWidth="264" styleClass="label " text="Винрейт (общее количество WN7)" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label30" visible="1"/>
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label33" layoutX="188" layoutY="24" prefHeight="17" prefWidth="100" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label33" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label34" layoutX="304" layoutY="24" prefHeight="17" prefWidth="100" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label34" visible="1"/>
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label35" layoutX="460" layoutY="40" prefHeight="17" prefWidth="136" styleClass="label " text="Убито мячей" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label35" visible="1"/>
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="rank_kills" layoutX="484" layoutY="56" prefHeight="17" prefWidth="112" styleClass="label " text="0" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-rank_kills" visible="1"/>
+        <Circle fill="#f2f2f2" focusTraversable="false" id="circle" layoutX="296" layoutY="48" radius="8" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="1" styleClass=""/>
+        <Data cursor="DEFAULT" enabled="1" id="data-circle" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-rank_panel" visible="1"/>
+    <ComboBox editable="false" focusTraversable="true" id="combobox" layoutX="372" layoutY="444" prefHeight="25" prefWidth="120" promptText="Игрок" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Dr3amy"/>
+          <String fx:value="Leviafan4ik"/>
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="500" layoutY="440" prefHeight="32" prefWidth="104" styleClass="button " text="Загрузить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="28" layoutY="440" prefHeight="28" prefWidth="32" styleClass="button " text="?" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </Button>
+    <FlatButton alignment="CENTER" clickColor="#f2f2f2" color="#f2f2f2" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="buttonAlt" layoutX="28" layoutY="304" prefHeight="17" prefWidth="92" styleClass="x-flat-button " text="Рейтинги" textAlignment="RIGHT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
   </children>
 </AnchorPane>
