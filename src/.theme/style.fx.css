@@ -15,34 +15,23 @@
     -fx-border-color : #005499;
 }
 
-.text-field {
-    -fx-background-color : white;
-    -fx-border-width : 1px;
-    -fx-border-color : #7a7a7a;
-    -fx-background-insets: 0px;
-}
-.text-field:focused {
-    -fx-border-width : 1px;
-    -fx-border-color : #0078d7;
-    -fx-background-color : white;
-    -fx-background-insets: 0px;
-}
+.text-area { 
+    -fx-background-color: #000000; 
+    -fx-text-fill: #fff;
+} 
 
-.text-area {
-    -fx-background-color : white;
-    -fx-border-width : 1px;
-    -fx-border-color : #7a7a7a;
-    -fx-background-insets: 0px;
-}
-.text-area:focused {
-    -fx-border-width : 1px;
-    -fx-border-color : #0078d7;
-    -fx-background-color : white;
-    -fx-background-insets: 0px;
-}
-.text-area:content {
-    -fx-border-width : 1px;
-    -fx-border-color : #0078d7;
-    -fx-background-color : white;
-    -fx-background-insets: 0px;
-}
+.text-area .scroll-pane { 
+    -fx-background-color: #000000; 
+} 
+
+.text-area .scroll-pane .viewport{ 
+    -fx-background-color: #000000; 
+} 
+
+.text-area:focused .content{ 
+    -fx-background-color: #000000; 
+} 
+
+.text-area .scroll-pane .content{ 
+    -fx-background-color: #000000; 
+}    

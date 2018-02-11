@@ -1,4 +1,5 @@
 [classes]
+app\forms\MainConsole
 app\forms\MainForm
 app\forms\MainGlobal
 app\modules\AppModule
