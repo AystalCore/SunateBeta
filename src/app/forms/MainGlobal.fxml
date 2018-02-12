@@ -7,7 +7,6 @@
     <Data cursor="DEFAULT" enabled="1" format="dd.MM.yyyy" id="data-date" value="01.01.2000" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/load.png" id="data-button_get" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" id="data-data_panel" visible=""/>
-    <Data cursor="DEFAULT" enabled="1" id="data-button_help" visible="1"/>
     <FlatButton alignment="CENTER" clickColor="#f2f2f2" color="#f2f2f2" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button4" layoutX="164" layoutY="260" prefHeight="20" prefWidth="176" styleClass="x-flat-button " text="" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
@@ -345,11 +344,6 @@
         <Font name="System Regular" size="12"/>
       </font>
     </CheckBox>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_help" layoutX="28" layoutY="256" prefHeight="28" prefWidth="32" styleClass="button " text="?" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="13"/>
-      </font>
-    </Button>
     <DatePicker editable="false" focusTraversable="true" id="date" layoutX="348" layoutY="256" prefHeight="32" prefWidth="104" promptText="" showWeekNumbers="false">
       <styleClass xmlns:fx="http://javafx.com/fxml">
         <String fx:value="combo-box-base"/>
@@ -361,10 +355,7 @@
         <Font name="System Regular" size="12"/>
       </font>
     </Button>
-    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff00" focusTraversable="false" height="28" id="rect6" layoutX="256" layoutY="284" stroke="#999999" strokeType="INSIDE" strokeWidth="1" styleClass="" width="1"/>
-    <Data cursor="DEFAULT" enabled="1" id="data-rect6" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/load.png" id="data-button_getRanks" visible="1"/>
-    <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" id="data-player" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label27" layoutX="12" layoutY="480" prefHeight="32" prefWidth="112" styleClass="label " text="Версия:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
       <font>
@@ -372,7 +363,7 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" graphic=".data/img/chip.png" id="data-label27" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="version" layoutX="92" layoutY="480" prefHeight="32" prefWidth="160" styleClass="label " text="Early Access 0.1" textAlignment="LEFT" textFill="#336666" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="version" layoutX="92" layoutY="480" prefHeight="32" prefWidth="160" styleClass="label " text="0.2" textAlignment="LEFT" textFill="#336666" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
@@ -383,7 +374,7 @@
         <Font name="System Regular" size="12"/>
       </font>
     </Button>
-    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/checkUpdate.png" id="data-button_checkUpdate" visible="1"/>
+    <Data cursor="DEFAULT" enabled="" graphic=".data/img/checkUpdate.png" id="data-button_checkUpdate" visible="1"/>
     <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label28" layoutX="428" layoutY="480" prefHeight="36" prefWidth="196" styleClass="label " text="powered by AystalCore" textAlignment="LEFT" textFill="#4d4d4d" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
@@ -411,7 +402,7 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-rank_procent" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label29" layoutX="4" layoutY="40" prefHeight="8" prefWidth="256" styleClass="label " text="Выиграно партий" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label29" layoutX="4" layoutY="40" prefHeight="8" prefWidth="256" styleClass="label " text="Выиграно партий / дневных" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
@@ -479,11 +470,6 @@
         <Font name="System Regular" size="12"/>
       </font>
     </FlatButton>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="28" layoutY="440" prefHeight="28" prefWidth="32" styleClass="button " text="?" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="13"/>
-      </font>
-    </Button>
     <ComboBox editable="false" focusTraversable="true" id="player" layoutX="372" layoutY="444" prefHeight="25" prefWidth="120" promptText="Игрок" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
       <items xmlns:fx="http://javafx.com/fxml">
         <FXCollections fx:factory="observableArrayList">
@@ -502,6 +488,6 @@
         <Font name="System Regular" size="12"/>
       </font>
     </Button>
-    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/console.jpg" id="data-button_console" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/add.png" id="data-button_console" visible="1"/>
   </children>
 </AnchorPane>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Leviafan4ik" authorOS="Windows 10" createdAt="1517589200199" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="SunateBeta" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1518327399212">
+<project author="Leviafan4ik" authorOS="Windows 10" createdAt="1517589200199" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="SunateBeta" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1518437601059">
   <tree>
     <expanded>
     <path src=""/>
     </expanded>
   </tree>
   <openedFiles>
-  <file selected="1" src="SunateBeta.dnproject"/>
+  <file src="SunateBeta.dnproject"/>
     <file src="src/app/modules/AppModule.php"/>
     <file src="src/app/modules/MainModule.php"/>
-    <file src="src/app/forms/MainForm.php"/>
     <file src="src/app/forms/MainGlobal.php"/>
-    <file src="src/app/forms/MainConsole.php"/>
+    <file src="src/app/forms/MainAuth.php"/>
+    <file selected="1" src="src/app/forms/MainConsole.php"/>
   </openedFiles>
   <files/>
   <behaviours>

@@ -1,6 +1,6 @@
 [classes]
+app\forms\MainAuth
 app\forms\MainConsole
-app\forms\MainForm
 app\forms\MainGlobal
 app\modules\AppModule
 app\modules\MainModule

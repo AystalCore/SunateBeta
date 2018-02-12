@@ -17,7 +17,7 @@
 
 .text-area { 
     -fx-background-color: #000000; 
-    -fx-text-fill: #fff;
+    -fx-text-fill: #cccccc;
 } 
 
 .text-area .scroll-pane { 

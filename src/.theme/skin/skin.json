@@ -1,0 +1,13 @@
+{
+  "uid": "_dss",
+  "name": "DSS",
+  "version": "",
+  "description": "Стиль DevelStudio",
+  "author": "Leviafan4ik",
+  "authorSite": "",
+  "file": "",
+  "scopes": [
+    "gui",
+    "ide\\project\\behaviours\\GuiFrameworkProjectBehaviour"
+  ]
+}

@@ -1,11 +1,241 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424" prefWidth="640" styleClass="">
   <children>
-    <TextArea editable="true" focusTraversable="true" id="textArea" layoutX="-4" layoutY="-4" prefColumnCount="40" prefHeight="488" prefWidth="648" promptText="" styleClass="text-input text-area " text="tetst text" wrapText="false">
+    <Panel backgroundColor="#f2f2f2" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="data_panel" layoutX="20" layoutY="36" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="360" prefWidth="600" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="RIGHT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_day_daniil" layoutX="232" layoutY="24" prefHeight="20" prefWidth="64" styleClass="label " text="0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="14"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/rocket_green.png" id="data-score_day_daniil" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="score_day_tit" layoutX="312" layoutY="24" prefHeight="20" prefWidth="68" styleClass="label " text="0" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="14"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/rocket_red.png" id="data-score_day_tit" visible="1"/>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff00" focusTraversable="false" height="20" id="rectAlt" layoutX="304" layoutY="24" stroke="#999999" strokeType="INSIDE" strokeWidth="1" styleClass="" width="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff00" focusTraversable="false" height="308" id="rect3" layoutX="84" layoutY="44" stroke="#999999" strokeType="INSIDE" strokeWidth="1" styleClass="" width="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label23" layoutX="372" layoutY="64" prefHeight="20" prefWidth="180" styleClass="label " text="Повешено соплей" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label23" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_score_day_tit" layoutX="328" layoutY="20" prefColumnCount="12" prefHeight="27" prefWidth="44" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_score_day_tit" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_score_day_daniil" layoutX="236" layoutY="20" prefColumnCount="12" prefHeight="27" prefWidth="44" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_score_day_daniil" visible="1"/>
+        <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit_score_day_all" layoutX="288" layoutY="52" prefColumnCount="12" prefHeight="27" prefWidth="32" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_score_day_all" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part1" layoutX="20" layoutY="44" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part1" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part2" layoutX="20" layoutY="72" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part2" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part3" layoutX="20" layoutY="100" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part3" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part4" layoutX="20" layoutY="128" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part4" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part5" layoutX="20" layoutY="156" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part5" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part6" layoutX="20" layoutY="184" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part6" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part7" layoutX="20" layoutY="212" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part7" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part8" layoutX="20" layoutY="240" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part8" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part9" layoutX="20" layoutY="268" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part9" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part10" layoutX="20" layoutY="296" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part10" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part11" layoutX="20" layoutY="324" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part11" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part12" layoutX="92" layoutY="44" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part12" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part13" layoutX="92" layoutY="72" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part13" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part14" layoutX="92" layoutY="100" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part14" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part15" layoutX="92" layoutY="128" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part15" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part16" layoutX="92" layoutY="156" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part16" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part17" layoutX="92" layoutY="184" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part17" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part19" layoutX="92" layoutY="240" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part19" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part20" layoutX="92" layoutY="268" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part20" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part21" layoutX="92" layoutY="296" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part21" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part22" layoutX="92" layoutY="324" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part22" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_sopel_daniil" layoutX="396" layoutY="88" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_sopel_daniil" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_sopel_tit" layoutX="476" layoutY="88" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_sopel_tit" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_part18" layoutX="92" layoutY="212" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_part18" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="372" layoutY="140" prefHeight="20" prefWidth="180" styleClass="label " text="Уибито мячей" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_kills_daniil" layoutX="396" layoutY="168" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_kills_daniil" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit_kills_tit" layoutX="476" layoutY="168" prefColumnCount="12" prefHeight="27" prefWidth="56" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit_kills_tit" visible="1"/>
+        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="316" layoutY="316" prefHeight="28" prefWidth="276" styleClass="check-box " text="Я поставил дату игры" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </CheckBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <FlatButton alignment="CENTER" clickColor="#f2f2f2" color="#f2f2f2" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button" layoutX="336" layoutY="380" prefHeight="32" prefWidth="276" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
-        <Font name="Consolas Bold" size="14"/>
+        <Font name="System Regular" size="12"/>
       </font>
-    </TextArea>
-    <Data cursor="DEFAULT" enabled="1" id="data-textArea" visible="1"/>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-data_panel" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_send" layoutX="336" layoutY="380" prefHeight="32" prefWidth="276" styleClass="button " text="Отправить данные на сервер (SSL)" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="" graphic=".data/img/checkUpdate.png" id="data-button_send" visible="1"/>
+    <DatePicker editable="false" focusTraversable="true" id="edit_date" layoutX="216" layoutY="380" prefHeight="32" prefWidth="112" promptText="" showWeekNumbers="false" styleClass="combo-box-base date-picker "/>
+    <Data cursor="DEFAULT" enabled="1" format="dd.MM.yyyy" id="data-edit_date" value="01.01.2000" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="date" layoutX="216" layoutY="412" prefHeight="20" prefWidth="100" styleClass="label " text="Текст" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="10"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-date" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
   </children>
 </AnchorPane>
